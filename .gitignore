@@ -1,0 +1,37 @@
+# Configurações específicas do IDE PyCharm
+.idea/
+
+# Configurações específicas do Visual Studio Code
+.vscode/
+
+# Configurações específicas do Sublime Text
+.sublime-project
+.sublime-workspace
+
+# Arquivos de log
+*.log
+
+# Arquivos de saída do console
+*.out
+*.err
+
+# Ambientes virtuais (ex: virtualenv, pipenv, venv)
+venv/
+env/
+env.bak/
+.venv/
+
+# Dependências instaladas
+lib/
+libs/
+lib64/
+
+# Arquivos de cache
+__pycache__/
+
+# Arquivos gerados pelo Python
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyw
