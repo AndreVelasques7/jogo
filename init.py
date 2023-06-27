@@ -29,7 +29,7 @@ pontuacao = 0
 
 
 def atualizar_pontuacao():
-    fonte = pygame.font.Font(None, 36)  # Escolha a fonte e o tamanho desejados
+    fonte = pygame.font.Font(None, 50)  # Escolha a fonte e o tamanho desejados
     texto_pontuacao = fonte.render("Pontuação: " + str(pontuacao), True, WHITE)
     window.blit(texto_pontuacao, (10, 10))  # Define a posição do texto na tela
 
@@ -54,6 +54,8 @@ while True:
               # Aqui você pode adicionar o comportamento desejado ao clicar na imagem
               pontuacao += 1  # Incrementa a pontuação ao clicar na imagem
               mover_imagem()  # Move a imagem para uma nova posição
+
+
 
     # Preenchimento do fundo com a cor preta
     window.fill(BLACK)
